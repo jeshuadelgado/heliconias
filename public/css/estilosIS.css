@@ -1,12 +1,17 @@
 .gradient-custom-2 {
   /* fallback for old browsers */
-  background: #fccb90;
+  background: #000000;
   
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  .icono{
+    margin-left: -1%;
+    font-size: 400px;
+    color: black;
   }
   
   @media (min-width: 768px) {

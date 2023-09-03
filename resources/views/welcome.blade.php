@@ -39,8 +39,10 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container-a">
-                <div style="color: rgb(255, 255, 255)" class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
-                <div style="color: white" class="masthead-heading text-uppercase">Encantado de Conocerte</div> 
+                <div style="color: white" class="masthead-heading text-uppercase">Bienvenido al Hotel las Heliconias!</div> 
+                <i class='far fa-arrow-alt-circle-down' style='font-size:80px;color:white'></i>
+                <br>
+                <br>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">DIME MÁS</a>
             </div>
         </header>
