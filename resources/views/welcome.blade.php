@@ -32,7 +32,7 @@
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Tarifas y Precios</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#prom">Planes y Promociones</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 <i class='far fa-arrow-alt-circle-down' style='font-size:80px;color:white'></i>
                 <br>
                 <br>
-                <a class="btn btn-primary btn-xl text-uppercase" href="{{ asset('pdf/PoliticadeReservas.pdf') }}" target="_blank">Descarga y Conoce Nuestra Nueva Politica de Reservas</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ asset('pdf/PoliticadeReservas.pdf') }}" target="_blank">Descargue y Conozca Nuestra Nueva Politica de Reservas</a>
             </div>
         </header>
         <!-- Services-->
@@ -137,7 +137,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/7.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Eventos</div>
@@ -267,7 +267,7 @@
                                     <h2 class="text-uppercase">Bloque Habitaciones</h2>
                                     <br>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.png" alt="..." />
-                                    <h5>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</h5>
+                                    <h5>Nuestros bloques de habitaciones te brindan una experiencia incomparable en hospitalidad. Disfruta de amplias y elegantes habitaciones, todas cuidadosamente diseñadas para tu confort. Cada bloque cuenta con una variedad de opciones de alojamiento, desde habitaciones estándar hasta suites de lujo, para satisfacer tus necesidades y preferencias individuales.</h5>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +308,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Eventos</h2>
                                     <p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.png" alt="..." />
                                     <h5>"En nuestro hotel, creamos momentos inolvidables. ¿Estás planeando un evento especial? Ya sea una boda elegante, una conferencia corporativa o una celebración familiar, estamos aquí para hacer que tu evento sea extraordinario.</h5>
                                 </div>
                             </div>

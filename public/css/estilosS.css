@@ -9,7 +9,7 @@
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   }
   .icono{
-    margin-left: -1%;
+    margin-left: -10%;
     font-size: 400px;
     color: black;
   }
@@ -17,6 +17,9 @@
   @media (min-width: 768px) {
   .gradient-form {
   height: 100vh !important;
+  }
+  .icono{
+    height: 100vh
   }
   }
   @media (min-width: 769px) {
