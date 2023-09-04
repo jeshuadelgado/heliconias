@@ -32,7 +32,7 @@
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Tarifas y Precios</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#prom">Planes y Promociones</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" target="_blank" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -248,7 +248,7 @@
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="tel:+573156124428" aria-label="Phone"><i class="fas fa-phone"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Todos los derechos reservados Jeshua Delgado.</a>
+                        <a class="link-dark text-decoration-none me-3" href="#!">Todos los derechos reservados.</a>
                     </div>
                 </div>
             </div>
