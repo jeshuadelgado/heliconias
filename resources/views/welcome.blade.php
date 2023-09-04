@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a style="font-size:23px;color: white" class="navbar-brand" href="#page-top"><img src="assets/img/hotel2.png" alt="..."> Inicio</a>/>
+                <a style="font-size:23px;color: white" class="navbar-brand" href="#page-top">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -30,8 +30,9 @@
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#services">Servicios</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#portfolio">Portafolio</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Tarifas y Precios</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="#prom">Planes y Promociones</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('Inicio Sesión') }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +44,7 @@
                 <i class='far fa-arrow-alt-circle-down' style='font-size:80px;color:white'></i>
                 <br>
                 <br>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">DIME MÁS</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="{{ asset('pdf/PoliticadeReservas.pdf') }}" target="_blank">Descarga y Conoce Nuestra Nueva Politica de Reservas</a>
             </div>
         </header>
         <!-- Services-->
@@ -205,6 +206,21 @@
             </div>
         </section>
 
+        <!-- Tarifas y Precios-->
+        <section class="page-section bg-light" id="prom">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Planes y Promociones</h2>
+                    <h3 class="section-subheading text-muted">Nuestro hotel se enorgullece de ofrecer una amplia variedad de planes y promociones diseñadas para satisfacer tus necesidades y superar tus expectativas.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-18">
+                        <div class="team-member">
+                            <img class="" src="assets/img/team/promociones.png" alt="..." />
+                        </div>
+                    </div>
+            </div>
+        </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -224,13 +240,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Hotel Campestre Las Heliconias - Zetaquira - Boyacá /  Vereda Patanoa &copy; 2023</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="https://wa.me/message/X6KFXOGNMOA6C1" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://web.facebook.com/LasHeliconiasZetaquira/?locale=es_LA&_rdc=1&_rdr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="mailto:hotellasheliconias.hclh@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="tel:+573156124428" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://wa.me/message/X6KFXOGNMOA6C1" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://web.facebook.com/LasHeliconiasZetaquira/?locale=es_LA&_rdc=1&_rdr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/explore/locations/572924831/hotel-campestre-las-heliconias-zetaquira/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.youtube.com/watch?v=D21Tqezo2rw" aria-label="youtube"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="mailto:hotellasheliconias.hclh@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="tel:+573156124428" aria-label="Phone"><i class="fas fa-phone"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Todos los derechos reservados Jeshua.</a>
+                        <a class="link-dark text-decoration-none me-3" href="#!">Todos los derechos reservados Jeshua Delgado.</a>
                     </div>
                 </div>
             </div>
@@ -246,20 +264,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Bloque Habitaciones</h2>
+                                    <br>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
+                                    <h5>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</h5>
                                 </div>
                             </div>
                         </div>
@@ -277,20 +285,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Cabañas</h2>
+                                    <p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
+                                    <h5>En nuestro hotel, nos enorgullece ofrecer a nuestros huéspedes una experiencia única y auténtica. Ven y descubre el encanto de nuestras cabañas, donde la comodidad se combina con la naturaleza en un equilibrio perfecto. ¡Haz tu reserva hoy y sumérgete en la serenidad de nuestras cabañas en el paraíso!</h5>
                                 </div>
                             </div>
                         </div>
@@ -308,20 +306,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Eventos</h2>
+                                    <p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
+                                    <h5>"En nuestro hotel, creamos momentos inolvidables. ¿Estás planeando un evento especial? Ya sea una boda elegante, una conferencia corporativa o una celebración familiar, estamos aquí para hacer que tu evento sea extraordinario.</h5>
                                 </div>
                             </div>
                         </div>
@@ -339,20 +327,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Areas Naturales</h2>
+                                    <p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
+                                    <h5>Nos enorgullece ofrecer a nuestros huéspedes una experiencia única en la que la naturaleza se convierte en tu mejor compañera de viaje. Nuestro entorno está rodeado de exuberantes paisajes naturales que te sumergirán en un mundo de serenidad y tranquilidad.</h5>
                                 </div>
                             </div>
                         </div>
@@ -370,20 +348,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Piscina Termal</h2>
+                                    <p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
+                                    <h5>¡Sumérgete en una experiencia de relajación y bienestar como ninguna otra en nuestro hotel! Nuestra piscina termal te ofrece una escapada rejuvenecedora que te hará sentir renovado y revitalizado.</h5>
                                 </div>
                             </div>
                         </div>
@@ -401,20 +369,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Restaurante</h2>
+                                    <p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
+                                    <h5>En el corazón de nuestro hotel, te espera una experiencia culinaria única que deleitará tus sentidos. Nuestro restaurante es mucho más que un lugar para comer; es un viaje a través de los sabores, aromas y la cultura local.</h5>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,3 @@
-@if (Auth::user()->rol=="Administrador")
 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="{{ route('logout') }}"
        onclick="event.preventDefault();
@@ -10,8 +9,4 @@
         @csrf
     </form>
 </div>
-<div class="Cli">Hola Administrador {{ Auth::user()->name }}</div>
-@else
-    @include('homeC')
-@endif
-
+<div class="Cli">Hola Cliente {{ Auth::user()->name }}</div>

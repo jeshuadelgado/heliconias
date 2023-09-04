@@ -40,16 +40,6 @@
 
                   <form action="{{ route('register') }}" method="POST">
                     @csrf
-
-                    <div class="form-outline mb-4">
-                        <label class="form-label" for="rol">Rol</label >
-                        <select name="rol" id="" class="form-control">
-                            <option value="">---------------------------------------------------------</option>
-                            <option value="Administrativo">Administrativo</option>
-                            <option value="Cliente">Cliente</option>
-                        </select>
-                    </div>
-
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form2Example11">Nombre</label>
                         <input type="text" name="name" id="form2Example11" class="form-control"
